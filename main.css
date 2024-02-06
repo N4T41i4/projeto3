@@ -1,0 +1,87 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
+#cabecalho .nav .nav-link.active{
+    background-color: rgb(240, 232, 232);
+    color:rgb(63, 57, 57);
+}
+#cabecalho .nav .nav-link,
+.nav-brand,
+.nav-brand:hover
+.nav-cardapio .nav-link.active{
+    color:rgb(63, 57, 57);
+}
+.navbar-brand{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: 'Pinyon Script', cursive;
+    
+}
+.nav{
+    font-weight:400;
+}
+.navbar-tooggler{
+    background-color: #fff;
+}
+.carousel-item img{
+    width: 100%;
+    height: 30vw;
+}
+.section-title{
+    font-family: 'Poiret One', sans-serif;   
+}
+.nav-link{
+    color:rgb(63, 57, 57);
+}
+.img img{
+    height: 20vw;
+}
+
+#sobre-o-restaurante{
+    background-color: #fff;
+    color:rgb(63, 57, 57);
+}
+
+.nav-cardapio .nav-link.active{
+    background-color: rgb(236, 234, 234);
+    color:rgb(63, 57, 57);
+}
+.nav-cardapio .nav-link:hover{
+    background-color:rgb(221, 218, 218) ;
+    color:rgb(17, 16, 16);
+}
+.tab-pane img{
+    width:100%;
+    height: 20vw;
+    border-radius: 4px;
+}
+.text-colored,span{
+    color:rgb(185, 35, 35);
+}
+.color i{
+    color: rgb(3, 3, 3);
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+.btn{
+    background-color: #d3cece8a;
+}
+@media(max-width:767px){
+    .caorusel-item img{
+        height:400px;
+    }
+    .tab-pane img{
+        height: 500px;
+        border-radius: 4px;
+    }
+
+}
